@@ -1,0 +1,2 @@
+# add file to /etc/cron.d
+01 00 * * * root tar -czpf /backup/etc.tar.gz /etc
